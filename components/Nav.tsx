@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Linkedin, Download } from "lucide-react";
+import { Github, Linkedin, Download, Send } from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -22,7 +22,7 @@ export default function Nav() {
   { name: "Men haqimda", href: "#about" },
   { name: "Tajriba", href: "#experience" },
   { name: "Loyihalar", href: "#projects" },
-  { name: "Bog&#39;lanish", href: "#contact" },
+  { name: "Bog'lanish", href: "#contact" },
 ];
 
   const getNavItemClasses = (href: string) => {
@@ -67,20 +67,7 @@ export default function Nav() {
             sun&apos;iy intellekt yechimlarini ishlab chiqaman. Maqsadim real
             muammolarni AI texnologiyalari orqali hal qilish.
           </p>
-        <div className="flex gap-3 mt-6 flex-wrap">
-        <Button asChild>
-          <a href="#projects">
-            Loyihalarim
-          </a>
-        </Button>
 
-        <Button variant="outline" asChild>
-          <a href="/Resume.pdf" target="_blank">
-            <Download className="mr-2 h-4 w-4" />
-            Resume
-          </a>
-        </Button>
-      </div>
       </div>
       <nav className="lg:flex hidden">
         <ul className="flex flex-col w-max text-start gap-6 uppercase text-xs font-medium">
@@ -99,26 +86,14 @@ export default function Nav() {
           })}
         </ul>
       </nav>
-      <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
-        <Button variant="outline" size="icon">
-          <a
-            href="https://github.com/Jamshidbek129"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="h-[1.2rem] w-[1.2rem]" />
-          </a>
-        </Button>
-        <Button variant="outline" size="icon">
-          <a
-            href="https://www.linkedin.com/in/jamshidbek-shokirov-046257287/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Linkedin className="h-[1.2rem] w-[1.2rem]" />
-          </a>
-        </Button>
+      <ul className="flex flex-row gap-6 mt-6 lg:mt-0">  
         <ModeToggle />
+                <Button variant="outline" asChild>
+          <a href="/Resume.pdf" target="_blank">
+            <Download className="mr-2 h-4 w-4" />
+            Resume
+          </a>
+        </Button>
       </ul>
     </header>
   );
