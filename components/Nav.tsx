@@ -22,7 +22,7 @@ export default function Nav() {
   { name: "Men haqimda", href: "#about" },
   { name: "Tajriba", href: "#experience" },
   { name: "Loyihalar", href: "#projects" },
-  { name: "Bog'lanish", href: "#contact" },
+  { name: "Bog&#39;lanish", href: "#contact" },
 ];
 
   const getNavItemClasses = (href: string) => {
@@ -62,11 +62,11 @@ export default function Nav() {
         <h2 className="text-xl lg:text-start font-semibold">
           AI Engineer | Machine Learning Engineer | Python Developer
         </h2>
-        <p className="text-lg lg:text-start text-muted-foreground">
-          Python, Machine Learning, Deep Learning va FastAPI yordamida
-          sun'iy intellekt yechimlarini ishlab chiqaman. Maqsadim real
-          muammolarni AI texnologiyalari orqali hal qilish.
-        </p>
+          <p className="text-lg lg:text-start text-muted-foreground">
+            Python, Machine Learning, Deep Learning va FastAPI yordamida
+            sun&apos;iy intellekt yechimlarini ishlab chiqaman. Maqsadim real
+            muammolarni AI texnologiyalari orqali hal qilish.
+          </p>
         <div className="flex gap-3 mt-6 flex-wrap">
         <Button asChild>
           <a href="#projects">

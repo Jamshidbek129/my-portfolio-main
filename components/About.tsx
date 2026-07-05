@@ -10,30 +10,30 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
   <p className="text-start text-muted-foreground lg:px-6">
-    Men sun'iy intellekt va ma'lumotlar tahlili yo'nalishida faoliyat
+    Men sun&apos;iy intellekt va ma&apos;lumotlar tahlili yo&apos;nalishida faoliyat
     yurituvchi AI Engineer va Python dasturchisiman. Asosiy qiziqishlarim
     Machine Learning, Deep Learning, Computer Vision hamda Data Science
-    texnologiyalarini o'rganish va amaliy loyihalarda qo'llashdan iborat.
+    texnologiyalarini o&apos;rganish va amaliy loyihalarda qo&apos;llashdan iborat.
   </p>
 
   <p className="text-start text-muted-foreground lg:px-6">
     Python, Scikit-learn, PyTorch, FastAPI, Django va PostgreSQL
-    texnologiyalari yordamida turli xil sun'iy intellekt tizimlarini ishlab
-    chiqaman. Modellarni yaratish, o'qitish, baholash va API ko'rinishida
-    foydalanishga topshirish bo'yicha tajribaga egaman.
+    texnologiyalari yordamida turli xil sun&apos;iy intellekt tizimlarini ishlab
+    chiqaman. Modellarni yaratish, o&apos;qitish, baholash va API ko&apos;rinishida
+    foydalanishga topshirish bo&apos;yicha tajribaga egaman.
   </p>
 
   <p className="text-start text-muted-foreground lg:px-6">
     Hozirgacha suv sifati parametrlarini bashorat qilish, jigar sirrozi
     bemorlarining omon qolish ehtimolini aniqlash, diabet tashxisi,
-    o'simlik kasalliklarini aniqlash va chiqindilarni avtomatik saralash
+    o&apos;simlik kasalliklarini aniqlash va chiqindilarni avtomatik saralash
     kabi AI loyihalarini ishlab chiqdim.
   </p>
 
   <p className="text-start text-muted-foreground lg:px-6">
-    Maqsadim — zamonaviy sun'iy intellekt texnologiyalaridan foydalangan
+    Maqsadim — zamonaviy sun&apos;iy intellekt texnologiyalaridan foydalangan
     holda real muammolarni hal qiladigan innovatsion dasturiy yechimlarni
-    yaratish va doimiy ravishda yangi bilimlarni o'zlashtirib borish.
+    yaratish va doimiy ravishda yangi bilimlarni o&apos;zlashtirib borish.
   </p>
 </div>
     </section>

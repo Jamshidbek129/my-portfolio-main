@@ -8,16 +8,16 @@ export default function Contact() {
     <section id="contact" className="scroll-mt-16 lg:mt-16">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
-          Bog'lanish
+          Bog&#39;lanish
         </h2>
       </div>
       <div className="flex flex-col gap-4 lg:px-6 mb-8">
         <h2 className="lg:block hidden text-5xl font-bold lg:text-start">
-           Bog'lanish
+           Bog&#39;lanish
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          Yangi loyihalar, hamkorlik takliflari yoki AI va dasturlash bo'yicha
-          savollaringiz bo'lsa, men bilan bog'lanishingiz mumkin.
+          Yangi loyihalar, hamkorlik takliflari yoki AI va dasturlash bo&#39;yicha
+          savollaringiz bo&#39;lsa, men bilan bog&#39;lanishingiz mumkin.
           Sizning xabaringizga imkon qadar tez javob berishga harakat qilaman.
         </p>
       </div>
