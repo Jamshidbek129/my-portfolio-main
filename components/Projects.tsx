@@ -12,6 +12,23 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
+    imagePath: "/ai-sales-agent.png",
+    title: "AI Sales Agent & Business Process Automation",
+    description:
+      "n8n yordamida yaratilgan AI Sales Agent. Telegram orqali mijozlar bilan muloqot qiladi, ehtiyojini aniqlaydi, ism va telefon raqamini yig‘adi hamda malakali leadlarni Google Sheets'ga avtomatik saqlaydi.",
+    skills: [
+      "n8n",
+      "AI Agent",
+      "Groq",
+      "Telegram Bot API",
+      "Google Sheets API",
+      "REST API",
+      "Webhooks",
+      "Automation",
+    ],
+    link: "https://t.me/Sotuvchi_Aibot",
+  },
+  {
     imagePath: "/water-quality.png",
     title: "2D Suv Sifati Bashorat Tizimi",
     description:
