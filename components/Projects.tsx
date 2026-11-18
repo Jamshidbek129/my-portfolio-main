@@ -25,6 +25,7 @@ const jobProjects = [
       "REST API",
       "Webhooks",
       "Automation",
+      "RAG"
     ],
     link: "https://t.me/Sotuvchi_Aibot",
   },
