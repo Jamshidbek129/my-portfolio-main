@@ -12,6 +12,22 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
+  imagePath: "/techbazar.png",
+  title: "TechBazar — Savdo va Mahsulotlar Tahlili",
+  description:
+    "TechBazar kompaniyasining 2 400 ta savdo yozuvini tahlil qilib, eng daromadli mahsulot kategoriyalari, chegirmalar samaradorligi va hududlar kesimidagi savdo ko‘rsatkichlarini o‘rgandim. Data Analysis va EDA orqali xarid hamda inventarizatsiya qarorlari uchun biznes tavsiyalar ishlab chiqdim.",
+  skills: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "EDA",
+    "Data Analysis",
+  ],
+  link: "https://github.com/Jamshidbek129/Techbazar_data_analiz",
+},
+  {
     imagePath: "/ai-sales-agent.png",
     title: "AI Sales Agent & Business Process Automation",
     description:
